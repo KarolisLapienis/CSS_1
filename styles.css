@@ -1,0 +1,44 @@
+body {
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/022/758/371/large/jessy-roig-compo-finale1.jpg?1576592416');background-size: cover; /* Adjust the image size (cover, contain, auto, etc.) */background-position: center; /* Adjust the image position (center, top, right, etc.) */background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+h1, h2 {
+    color: green;
+}
+.orange1 {
+    color: orange;
+}
+#italic1 {
+    font-style: italic;
+}
+.li1 {
+    font-weight: 700;
+}
+.li2 {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.li2::before{
+    content: "";
+  width: 2px;
+  height: 2px;
+  border-radius: 50%; /* Makes the square div a circle */
+  border: 2px solid orangered;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+  position: relative;
+}
+.li2 {
+    color: blue;
+    font-weight: 600;
+    text-decoration: underline;
+}
+table {
+    border: 4px black;
+    border-style: inset;
+}
+th, td {
+    border: 4px;
+    border-style: inset;
+}
