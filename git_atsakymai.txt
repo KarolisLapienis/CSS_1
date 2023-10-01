@@ -1,7 +1,6 @@
-1. GIT is a distributed version control system
-2.
-3.
-4.
+1. git is a distributed version control system.
+2. git clone command creates a complete copy of a remote repository on your local system.
+3. We can clone a remote repository to local by using git clone command. Cloning is very important as it provides an independant, local copy of a project that allows faster access, offline work, serves as a backup and a secure space for development, version control, and experimentation before changes are synchronized with the central repository.
 5.
 6.
 7.
