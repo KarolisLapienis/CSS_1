@@ -1,7 +1,11 @@
 1. git is a distributed version control system.
 2. git clone command creates a complete copy of a remote repository on your local system.
 3. We can clone a remote repository to local by using git clone command. Cloning is very important as it provides an independant, local copy of a project that allows faster access, offline work, serves as a backup and a secure space for development, version control, and experimentation before changes are synchronized with the central repository.
-5.
-6.
-7.
-8.
+4. Initialization, branching, development, merging, hotfix when needed, cleanup.
+5. git add command adds file changes or new files to the staging area.
+6. git init command initializes a new git repository, creates a hidden .git directory that stores all git related data of this repository.
+7. git push remote_repository_name_or_url_if_name_not_configured new_branch_name
+you can use --set-upstream option to establish a tracking relationship between the local branch and the remote branch allowing you to use git push for that branch without specifying the name of repository and branch like so:
+git push --set-upstream remote_repository_name_or_url_if_name_not_configured new_branch_name
+git push and git pull after using --set-upstream won't require to specify depository url and branch.
+8. git commit saves a new commit. It records all staged changes, metadata like author name, date and commit message, assigns a unique identifier and advances a branch to the new commit.
